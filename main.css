@@ -31,7 +31,7 @@
 .btn button {
   background: blue;
   padding: 15px 10px;
-  width: 100px;
+  width: 50%;
   margin: 50px 10px;
   color: white;
   border-radius: 10px;
@@ -39,23 +39,34 @@
 .btn {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 .slotsection {
   display: flex;
   height: auto;
   width: 100%;
-  margin-top: 20px;
   justify-content: center;
   text-align: center;
 }
 .slotsection img {
   height: 250px;
   padding: 0 10px 0 10px;
-  margin: 0 10px 0 10px;
   justify-content: center;
+  margin-top: 10px;
 }
 .slotsection div h2 {
   text-transform: uppercase;
+  margin-top: 10px;
+}
+.slotsection div h4 {
+  display: flex;
+  padding: 3px;
+  border-radius: 2px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
 }
 .phoneslotsection {
   padding: 0 20px 0 20px;
