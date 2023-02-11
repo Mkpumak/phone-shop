@@ -58,7 +58,7 @@
   text-transform: uppercase;
   margin-top: 10px;
 }
-.slotsection div h4 {
+.slotsection div div {
   display: flex;
   padding: 3px;
   border-radius: 2px;
